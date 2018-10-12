@@ -1,0 +1,12 @@
+name=input("What is your name")
+print('Hello',name,',Welcome to the Algebra and Geometry calculator',sep=', ')
+input('Press ENTER to continue')
+print('Area of a Triangle:')
+h=float(input('Please enter the height of the triangle:'))
+b=float(input('Please enter the length of the base of the triangle:'))
+units=str(input('Please enter the abbreviated unit of measure (ex: cm, in):'))
+t=1/2*b*h
+print('Calculating...')
+print()
+print()
+print('The area of that triangle is ',format(t,'.2f'),units,'^2',sep='')
