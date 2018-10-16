@@ -1,5 +1,6 @@
+#Benjamin Readman
 name=input("What is your name")
-print('Hello',name,',Welcome to the Algebra and Geometry calculator',sep=', ')
+print('Hello',name,'Welcome to the Algebra and Geometry calculator',sep=', ')
 input('Press ENTER to continue')
 print('Area of a Triangle:')
 h=float(input('Please enter the height of the triangle:'))
